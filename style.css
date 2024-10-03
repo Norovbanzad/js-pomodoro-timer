@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(169, 127, 207);
+}
+
+#timer-container {
+    text-align: center;
+    font-size: 3em;
+    font-family: "Digital", sans-serif;
+    flex-grow: 1;
+}
+
+#timer-value {
+    margin-bottom: 20px;
+}
+
+h5, .timer, p {
+    color: azure;
+    text-shadow: 2px 2px rgba(6, 1, 2, 1.134);
+}
+
+button {
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px 1px rgba(6,1,6,0.148);
+    margin: 10px 10px;
+    padding: 5px 25px;
+    font-size: large;
+}
+
+.start-button {
+    background-color: rgb(14, 75, 17);
+    color: azure;
+}
+
+.stop-button {
+    background-color: brown;
+    color: azure;
+}
+
+.rest-button {
+    background-color: rgb(68, 68, 150);
+    color: azure;
+}
+
+.reset-button {
+    background-color: rgb(187, 162, 22);
+    color: azure;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: bisque;
+    color: black;
+}
+
+.start-button:disabled,
+.stop-button:disabled {
+    opacity: .15;
+    cursor: not-allowed;
+}
+
+footer {
+    text-align: center;
+}
